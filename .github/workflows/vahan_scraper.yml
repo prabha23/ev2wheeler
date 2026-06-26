@@ -19,10 +19,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        # UPDATED to v6 to fix the Node 20 deprecation error
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        # UPDATED to v6 to fix the Node 20 deprecation error
+        uses: actions/setup-python@v6
         with:
           python-version: '3.10'
 
