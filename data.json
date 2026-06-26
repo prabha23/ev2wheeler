@@ -11851,11 +11851,11 @@
         },
         "ATHER ENERGY LTD": {
           "JAN": 23087,
-          "FEB": 21261,
-          "MAR": 36361,
-          "APR": 28531,
-          "MAY": 28478,
-          "JUN": 22057
+          "FEB": 21262,
+          "MAR": 36362,
+          "APR": 28534,
+          "MAY": 28492,
+          "JUN": 26052
         },
         "AYAAN ELECTRONIC PVT LTD": {
           "JAN": 0,
@@ -11868,10 +11868,10 @@
         "BAJAJ AUTO LTD": {
           "JAN": 26576,
           "FEB": 26343,
-          "MAR": 47740,
-          "APR": 34586,
-          "MAY": 39484,
-          "JUN": 31629
+          "MAR": 47743,
+          "APR": 34587,
+          "MAY": 39497,
+          "JUN": 35465
         },
         "BATTRE ELECTRIC MOBLITY PVT LTD": {
           "JAN": 50,
@@ -11879,7 +11879,7 @@
           "MAR": 84,
           "APR": 62,
           "MAY": 63,
-          "JUN": 28
+          "JUN": 29
         },
         "BENLING INDIA ENERGY AND TECHNOLOGY PVT LTD": {
           "JAN": 6,
@@ -11892,10 +11892,10 @@
         "BGAUSS AUTO PRIVATE LIMITED": {
           "JAN": 2539,
           "FEB": 2723,
-          "MAR": 3774,
+          "MAR": 3773,
           "APR": 3230,
           "MAY": 3299,
-          "JUN": 2766
+          "JUN": 3341
         },
         "BMR EV INDUSTRIES PVT LTD": {
           "JAN": 1,
@@ -11911,7 +11911,7 @@
           "MAR": 40,
           "APR": 27,
           "MAY": 5,
-          "JUN": 7
+          "JUN": 8
         },
         "BOOMA INNOVATIVE TRANSPORT SULUTIONS PVT LTD": {
           "JAN": 160,
@@ -11919,7 +11919,7 @@
           "MAR": 235,
           "APR": 121,
           "MAY": 230,
-          "JUN": 91
+          "JUN": 93
         },
         "BOUNCE ELECTRIC 1 PVT LTD": {
           "JAN": 125,
@@ -11927,7 +11927,7 @@
           "MAR": 299,
           "APR": 1077,
           "MAY": 1351,
-          "JUN": 1062
+          "JUN": 1222
         },
         "BU4 AUTO PVT LTD": {
           "JAN": 0,
@@ -12047,7 +12047,7 @@
           "MAR": 1510,
           "APR": 680,
           "MAY": 955,
-          "JUN": 719
+          "JUN": 1075
         },
         "ESSEL ENERGY INFRA PVT LTD": {
           "JAN": 1,
@@ -12071,7 +12071,7 @@
           "MAR": 0,
           "APR": 0,
           "MAY": 0,
-          "JUN": 0
+          "JUN": 1
         },
         "GAURA ELECTRIC VEHICLES PVT LTD": {
           "JAN": 137,
@@ -12079,7 +12079,7 @@
           "MAR": 116,
           "APR": 166,
           "MAY": 96,
-          "JUN": 114
+          "JUN": 167
         },
         "GODAWARI ELECTRIC MOTORS PVT LTD": {
           "JAN": 22,
@@ -12117,9 +12117,9 @@
           "JAN": 5420,
           "FEB": 4762,
           "MAR": 7980,
-          "APR": 7010,
+          "APR": 7011,
           "MAY": 7702,
-          "JUN": 7196
+          "JUN": 8660
         },
         "HAYASA E-MOBILITY (INDIA) PVT LTD": {
           "JAN": 1,
@@ -12139,11 +12139,11 @@
         },
         "HERO MOTOCORP LTD": {
           "JAN": 13867,
-          "FEB": 12976,
-          "MAR": 22201,
-          "APR": 15939,
-          "MAY": 19200,
-          "JUN": 14279
+          "FEB": 12977,
+          "MAR": 22200,
+          "APR": 15938,
+          "MAY": 19215,
+          "JUN": 17073
         },
         "HOMFEEL VEGH AUTOMOBILES PVT LTD": {
           "JAN": 0,
@@ -12159,7 +12159,7 @@
           "MAR": 149,
           "APR": 402,
           "MAY": 525,
-          "JUN": 581
+          "JUN": 676
         },
         "HONGKONG RUIQUE (IMPORTER: DAO EVTECH)": {
           "JAN": 1,
@@ -12231,15 +12231,15 @@
           "MAR": 3,
           "APR": 5,
           "MAY": 3,
-          "JUN": 9
+          "JUN": 10
         },
         "INDIA YAMAHA MOTOR PVT LTD": {
           "JAN": 0,
           "FEB": 0,
           "MAR": 36,
           "APR": 105,
-          "MAY": 139,
-          "JUN": 88
+          "MAY": 140,
+          "JUN": 107
         },
         "IRA EDUTECH PVT LTD": {
           "JAN": 0,
@@ -12263,7 +12263,7 @@
           "MAR": 37,
           "APR": 37,
           "MAY": 11,
-          "JUN": 17
+          "JUN": 18
         },
         "IZANAU ELECTRIC LLP": {
           "JAN": 2,
@@ -12335,7 +12335,7 @@
           "MAR": 20,
           "APR": 39,
           "MAY": 21,
-          "JUN": 11
+          "JUN": 14
         },
         "JIANGSU ZHEENAIDA (IMPORTER: KLB GLOBAL)": {
           "JAN": 0,
@@ -12345,13 +12345,21 @@
           "MAY": 0,
           "JUN": 0
         },
+        "JIANGSU ZHONGXING (IMPORTER:SKANDAA AUTOMOTIVE)": {
+          "JAN": 0,
+          "FEB": 0,
+          "MAR": 0,
+          "APR": 0,
+          "MAY": 0,
+          "JUN": 1
+        },
         "JITENDRA NEW EV-TECH PVT. LTD": {
           "JAN": 39,
           "FEB": 38,
           "MAR": 55,
           "APR": 40,
           "MAY": 79,
-          "JUN": 107
+          "JUN": 143
         },
         "JUNENG MOTORCYCLE (IMPORTER: ADMS MARKETING)": {
           "JAN": 0,
@@ -12391,7 +12399,7 @@
           "MAR": 0,
           "APR": 0,
           "MAY": 0,
-          "JUN": 1
+          "JUN": 2
         },
         "KABIRA MOBILITY LLP": {
           "JAN": 0,
@@ -12423,7 +12431,7 @@
           "MAR": 392,
           "APR": 680,
           "MAY": 382,
-          "JUN": 315
+          "JUN": 412
         },
         "KAINING (HONGKONG) (IMPORTER: ENIGMA AUTOMOBILES)": {
           "JAN": 0,
@@ -12479,7 +12487,7 @@
           "MAR": 449,
           "APR": 675,
           "MAY": 381,
-          "JUN": 358
+          "JUN": 426
         },
         "KINETIC GREEN ENERGY P SOL LTD": {
           "JAN": 3,
@@ -12503,7 +12511,7 @@
           "MAR": 114,
           "APR": 100,
           "MAY": 173,
-          "JUN": 176
+          "JUN": 220
         },
         "KLB KOMAKI PVT LTD": {
           "JAN": 318,
@@ -12511,7 +12519,7 @@
           "MAR": 382,
           "APR": 359,
           "MAY": 383,
-          "JUN": 403
+          "JUN": 463
         },
         "KYTE ENERGY PVT. LTD.": {
           "JAN": 0,
@@ -12527,7 +12535,7 @@
           "MAR": 785,
           "APR": 743,
           "MAY": 806,
-          "JUN": 671
+          "JUN": 813
         },
         "LIMA VEHICLE (IMPORTER: SARAOGI E-VENTURES)": {
           "JAN": 3,
@@ -12567,7 +12575,7 @@
           "MAR": 124,
           "APR": 68,
           "MAY": 158,
-          "JUN": 105
+          "JUN": 121
         },
         "MECPOWER MOBILITY PVT. LTD.": {
           "JAN": 3,
@@ -12583,7 +12591,7 @@
           "MAR": 81,
           "APR": 22,
           "MAY": 23,
-          "JUN": 11
+          "JUN": 13
         },
         "MOTOVOLT MOBILITY PVT LTD": {
           "JAN": 467,
@@ -12591,7 +12599,7 @@
           "MAR": 780,
           "APR": 240,
           "MAY": 909,
-          "JUN": 302
+          "JUN": 368
         },
         "NANJING VMOTO (IMPORTER: FORTUNEV)": {
           "JAN": 0,
@@ -12607,7 +12615,7 @@
           "MAR": 8,
           "APR": 14,
           "MAY": 10,
-          "JUN": 3
+          "JUN": 4
         },
         "NDS ECO MOTORS PVT LTD": {
           "JAN": 5,
@@ -12639,7 +12647,7 @@
           "MAR": 56,
           "APR": 57,
           "MAY": 28,
-          "JUN": 44
+          "JUN": 49
         },
         "OBEN ELECTRIC VEHICLES PVT LTD": {
           "JAN": 363,
@@ -12647,7 +12655,7 @@
           "MAR": 577,
           "APR": 591,
           "MAY": 408,
-          "JUN": 329
+          "JUN": 377
         },
         "ODYSSE ELECTRIC VEHICLES PVT LTD": {
           "JAN": 499,
@@ -12655,7 +12663,7 @@
           "MAR": 396,
           "APR": 193,
           "MAY": 518,
-          "JUN": 312
+          "JUN": 442
         },
         "OKAYA POWER PVT LTD": {
           "JAN": 1,
@@ -12671,15 +12679,15 @@
           "MAR": 140,
           "APR": 133,
           "MAY": 119,
-          "JUN": 104
+          "JUN": 114
         },
         "OLA ELECTRIC TECHNOLOGIES PVT LTD": {
           "JAN": 7808,
           "FEB": 4169,
-          "MAR": 10266,
-          "APR": 12351,
-          "MAY": 15210,
-          "JUN": 10894
+          "MAR": 10270,
+          "APR": 12355,
+          "MAY": 15216,
+          "JUN": 12969
         },
         "OPG MOBILITY AND POWER PVT LTD": {
           "JAN": 97,
@@ -12687,7 +12695,7 @@
           "MAR": 105,
           "APR": 89,
           "MAY": 112,
-          "JUN": 85
+          "JUN": 89
         },
         "ORA GROUP (IMPORTER: VAKRA TUNDAYA NAMAHA PVT LTD)": {
           "JAN": 1,
@@ -12735,7 +12743,7 @@
           "MAR": 388,
           "APR": 158,
           "MAY": 122,
-          "JUN": 163
+          "JUN": 181
         },
         "QUANTUM ENERGY LTD.": {
           "JAN": 257,
@@ -12743,7 +12751,7 @@
           "MAR": 615,
           "APR": 496,
           "MAY": 554,
-          "JUN": 596
+          "JUN": 771
         },
         "RAPTEE ENERGY PVT LTD": {
           "JAN": 5,
@@ -12759,7 +12767,7 @@
           "MAR": 1334,
           "APR": 958,
           "MAY": 740,
-          "JUN": 566
+          "JUN": 704
         },
         "RGM BUSINESS PLUS PVT LTD": {
           "JAN": 4,
@@ -12773,9 +12781,9 @@
           "JAN": 2856,
           "FEB": 2477,
           "MAR": 4270,
-          "APR": 3698,
-          "MAY": 3779,
-          "JUN": 2971
+          "APR": 3700,
+          "MAY": 3783,
+          "JUN": 3562
         },
         "RIVOT MOTORS INDIA PVT LTD": {
           "JAN": 0,
@@ -12791,7 +12799,7 @@
           "MAR": 0,
           "APR": 4,
           "MAY": 2,
-          "JUN": 19
+          "JUN": 20
         },
         "SBTEK E MOTO PVT LTD": {
           "JAN": 0,
@@ -12813,9 +12821,9 @@
           "JAN": 564,
           "FEB": 803,
           "MAR": 1780,
-          "APR": 1255,
-          "MAY": 1317,
-          "JUN": 889
+          "APR": 1257,
+          "MAY": 1323,
+          "JUN": 1073
         },
         "SMAP VEHICLES (IMPORTER: ELEGO MOTORS)": {
           "JAN": 0,
@@ -12828,10 +12836,10 @@
         "SOKUDO ELECTRIC INDIA PVT LTD": {
           "JAN": 83,
           "FEB": 76,
-          "MAR": 89,
+          "MAR": 90,
           "APR": 82,
           "MAY": 60,
-          "JUN": 61
+          "JUN": 104
         },
         "SRIVARU MOTORS PVT LTD": {
           "JAN": 0,
@@ -12863,7 +12871,15 @@
           "MAR": 335,
           "APR": 291,
           "MAY": 351,
-          "JUN": 357
+          "JUN": 430
+        },
+        "SVITCH MOTOCORP PVT LTD": {
+          "JAN": 0,
+          "FEB": 0,
+          "MAR": 0,
+          "APR": 0,
+          "MAY": 0,
+          "JUN": 1
         },
         "TORK MOTORS PVT LTD": {
           "JAN": 0,
@@ -12876,18 +12892,18 @@
         "TVS MOTOR COMPANY LTD": {
           "JAN": 36137,
           "FEB": 33498,
-          "MAR": 51770,
-          "APR": 40264,
-          "MAY": 42962,
-          "JUN": 32576
+          "MAR": 51774,
+          "APR": 40268,
+          "MAY": 42991,
+          "JUN": 38387
         },
         "ULTRAVIOLETTE AUTOMOTIVE PVT LTD": {
           "JAN": 406,
           "FEB": 293,
           "MAR": 291,
           "APR": 383,
-          "MAY": 392,
-          "JUN": 330
+          "MAY": 393,
+          "JUN": 385
         },
         "VELOCIFERO (IMPORTER: KAWVELOCE MOTORS PVT LTD)": {
           "JAN": 17,
@@ -12903,7 +12919,7 @@
           "MAR": 100,
           "APR": 168,
           "MAY": 89,
-          "JUN": 82
+          "JUN": 92
         },
         "WARIVO MOTOR INDIA PVT LTD": {
           "JAN": 19,
@@ -12911,7 +12927,7 @@
           "MAR": 28,
           "APR": 24,
           "MAY": 22,
-          "JUN": 26
+          "JUN": 27
         },
         "WUXI DAYANG ELECTRIC (IMPORTER: ABZO MOTORS)": {
           "JAN": 1,
@@ -12919,7 +12935,7 @@
           "MAR": 0,
           "APR": 4,
           "MAY": 6,
-          "JUN": 5
+          "JUN": 7
         },
         "WUXI JIYAYI (IMPORTER: IZANAU ELECTRIC LLP)": {
           "JAN": 13,
@@ -12943,7 +12959,7 @@
           "MAR": 92,
           "APR": 81,
           "MAY": 76,
-          "JUN": 47
+          "JUN": 51
         },
         "WUXI SAIGE ELECTRIC (IMPORTER: DELTA AUTOCORP LLP)": {
           "JAN": 1,
@@ -13119,7 +13135,7 @@
           "MAR": 22,
           "APR": 24,
           "MAY": 10,
-          "JUN": 13
+          "JUN": 20
         },
         "ZAP (HK) (IMPORTER: IZANAU ELECTRIC)": {
           "JAN": 3,
@@ -13143,7 +13159,7 @@
           "MAR": 1,
           "APR": 6,
           "MAY": 3,
-          "JUN": 3
+          "JUN": 5
         },
         "ZENIAK INNOVATION INDIA LTD": {
           "JAN": 0,
@@ -13175,7 +13191,7 @@
           "MAR": 2,
           "APR": 2,
           "MAY": 2,
-          "JUN": 4
+          "JUN": 5
         },
         "ZHONGHUALONG (IMPORTER: POWORO PVT LTD)": {
           "JAN": 19,
@@ -13186,8 +13202,8 @@
           "JUN": 3
         }
       },
-      "makerCount": 180
+      "makerCount": 182
     }
   ],
-  "exportedAt": "2026-06-24T12:45:21.312Z"
+  "exportedAt": "2026-06-26T14:10:51.434Z"
 }
