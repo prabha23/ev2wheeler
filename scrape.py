@@ -20,6 +20,7 @@ def download_raw_vahan_sheet():
         page.goto("https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml")
         time.sleep(5)
         
+        # Helper 1: Main Dropdowns
         def change_dropdown(dropdown_combo_id, option_text):
             dropdown = page.locator(f"div[id*='{dropdown_combo_id}']").first
             dropdown.locator(".ui-selectonemenu-trigger").click()
@@ -29,45 +30,64 @@ def download_raw_vahan_sheet():
 
         change_dropdown("yaxisVar", "Maker")
         change_dropdown("xaxisVar", "Month Wise")
+        
+        # 1. Main Refresh
+        print("[*] Performing main refresh...")
         page.locator("button", has_text="Refresh").first.click()
         time.sleep(8)
         
+        # 2. Resilient Sidebar Expansion
+        print("[*] Checking sidebar status...")
         try:
-            page.locator(".ui-layout-unit-expand-icon").first.click()
-            time.sleep(3)
-        except: pass
+            # Check if icon exists and is visible before clicking
+            expand_icon = page.locator(".ui-layout-unit-expand-icon").first
+            if expand_icon.is_visible(timeout=5000):
+                expand_icon.click(force=True)
+                time.sleep(3)
+                print("[+] Sidebar opened.")
+            else:
+                print("[+] Sidebar appears to be already open.")
+        except: 
+            print("[+] Sidebar toggle skipped.")
 
+        # Helper 2: Checkbox logic
         def expand_and_check_filter(section_name, option_name):
             header = page.locator(".ui-accordion-header").filter(has_text=section_name).first
-            if "ui-state-active" not in (header.get_attribute("class") or ""):
+            if header.count() > 0 and "ui-state-active" not in (header.get_attribute("class") or ""):
                 header.click(force=True)
                 time.sleep(2)
             
-            # Find the row, then look for any clickable box inside it
-            row = page.locator("tr, li").filter(has=page.get_by_text(option_name, exact=False)).first
-            box = row.locator(".ui-chkbox-box, input[type='checkbox'], td:first-child").first
-            box.click(force=True)
-            time.sleep(2)
+            # Find the row and the checkbox within it
+            target_row = page.locator("tr, li").filter(has=page.get_by_text(option_name, exact=False)).first
+            box = target_row.locator(".ui-chkbox-box, input[type='checkbox'], div[role='checkbox']").first
+            
+            if box.count() > 0:
+                box.click(force=True)
+                time.sleep(2)
+            else:
+                target_row.click(force=True)
+                time.sleep(2)
 
+        # Select items
         expand_and_check_filter("Vehicle Category", "TWO WHEELER (Invalid Carriage)")
         expand_and_check_filter("Vehicle Category", "TWO WHEELER(NT)")
         expand_and_check_filter("Vehicle Category", "TWO WHEELER(T)")
         expand_and_check_filter("Fuel", "ELECTRIC(BOV)")
         expand_and_check_filter("Fuel", "PURE EV")
         
-        # FINAL REFRESH
+        # 3. Sidebar Refresh
+        print("[*] Clicking sidebar refresh...")
         page.locator("button", has_text="Refresh").last.click(force=True)
         time.sleep(12)
         
-        # RETRY LOOP FOR DOWNLOAD
+        # 4. Download
         for attempt in range(3):
             try:
-                print(f"[*] Attempting download (Attempt {attempt+1}/3)...")
-                with page.expect_download(timeout=30000) as download_info:
+                print(f"[*] Attempting download ({attempt+1}/3)...")
+                with page.expect_download(timeout=45000) as download_info:
                     excel_btn = page.locator("input[src*='excel' i], img[src*='excel' i], [title*='Excel' i]").first
                     excel_btn.click(force=True)
-                download = download_info.value
-                download.save_as(EXCEL_FILE_PATH)
+                download_info.value.save_as(EXCEL_FILE_PATH)
                 print("[+] Success!")
                 break
             except Exception as e:
